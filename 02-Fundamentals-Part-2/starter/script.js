@@ -1,3 +1,10 @@
-const { StrictMode } = require("react");
+"use strict";
 
-StrictMode;
+function logger() {
+  console.log("My name is Mohammed");
+}
+
+//Calling, running and invoking the function
+logger();
+logger();
+logger();
